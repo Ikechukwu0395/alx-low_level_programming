@@ -1,26 +1,27 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
-
+#include <stdlib.h>
 /**
- * main- the starting of he program
- * Description:a program that assign a random number
- * Return:0
+ * main - Entry point
+ *
+ * Return: always 0
  */
 int main(void)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-if (n > 0)
-{
-printf("%d is positive\n", n);
-}
-else if (n == 0)
-{
-printf("%d is zero", n);
-}
-else
-printf("%d is negative", n);
-return (0);
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	} else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	} else
+	{
+		printf("%d is negative\n", n);
+	}
+	return (0);
 }
