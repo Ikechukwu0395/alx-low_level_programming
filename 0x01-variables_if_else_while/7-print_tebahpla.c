@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
 * main - Entry of the program
-* Description: Print all the letters backward
+* Description: prints all the alphabet backward,
 * Return:0
 */
 int main(void)
 {
-char alpha;
-for (alpha = 'z'; alpha >= 'a'; alpha--)
+char alph;
+for (alph = 'z'; alph >= 'a'; alph--)
 {
-putchar(alpha);
+putchar(alph);
 }
 putchar('\n');
 return (0);
