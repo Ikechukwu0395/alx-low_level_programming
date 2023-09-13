@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- * print_alphabet - start of function
- * @void: parameter void
- * Description: print alphabet
- * Return: 0
+ * print_alphabet - etry point
+ *
+ * description - prints thealphabets in lowercase
+ *
+ * Return: none
  */
-
 void print_alphabet(void)
 {
-	char a;
+	char c;
 
-	for (a = 'a'; a <= 'z'; a++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-	_putchar(a);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
