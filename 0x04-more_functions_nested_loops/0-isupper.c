@@ -4,7 +4,7 @@
  * @c: The interget value
  * Return: 1 if true, 0 if false
  */
-int _islower(int c)
+int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')
 {
