@@ -2,7 +2,7 @@
 /**
  * _isdigit - a digit function
  * Description: prints digit
- * @c:user imput
+ * @c: user imput
  * Return: 1 or 0
 */
 int _isdigit(int c)
@@ -15,5 +15,4 @@ int _isdigit(int c)
 	{
 		return (0);
 	}
-
 }
