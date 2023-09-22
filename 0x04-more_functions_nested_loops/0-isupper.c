@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - Entry point
+ * _isupper - Entry point
  * @c: The interget value
  * Return: 1 if true, 0 if false
  */
