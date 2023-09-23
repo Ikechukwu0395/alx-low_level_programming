@@ -13,8 +13,8 @@ void print_numbers(void)
 
 	for (i = 0; i <= 12; i++)
 	{
-		putchar(a[i]);
+		_putchar(a[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
