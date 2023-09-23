@@ -1,19 +1,18 @@
 #include "main.h"
 /**
- * print_numbers - Entry point
- * Description: prints from 0 till 9
- * @perimeter: void
- * Return: void
+ * print_numbers - prints numbers from 0-9
+ *
+ * description: using ASCII
+ *
+ * Return: none
  */
-
 void print_numbers(void)
 {
-	char a[12] = "0123456789$";
 	int i;
 
-	for (i = 0; i < 12; i++)
+	for (i = 48; i <= 57; i++)
 	{
-		_putchar(a[i]);
+		_putchar(i);
 	}
-	_putchar('\n');
+	_putchar(10);
 }
