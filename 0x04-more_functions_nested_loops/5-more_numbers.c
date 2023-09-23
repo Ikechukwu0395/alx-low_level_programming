@@ -1,24 +1,26 @@
 #include "main.h"
 /**
- * more_numbers - prints numbers from 0-9 except 3&4
+ * more_numbers - print 0-14 10 times
  *
- * Description: using ASCII
+ * description - use ASCII
  *
  * Return: none
  */
-
 void more_numbers(void)
 {
-	int outer;
 	int i;
-	char a[23] = "0123456891011121314";
+	int j;
 
-	for (outer = 48; outer <= 57; outer++)
-{
-		for (i = 0; i < 23; i++)
+	for (i = 0; i <= 9; i++)
+	{
+		for (j = 0; j <= 14; j++)
 		{
-			_putchar(a[i]);
+			if (j > 9)
+			{
+				_putchar((j / 10) + '0');
+			}
+			_putchar((j % 10) + '0');
 		}
 		_putchar('\n');
-}
+	}
 }
