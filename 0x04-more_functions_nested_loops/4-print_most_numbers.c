@@ -2,7 +2,7 @@
 /**
  * print_most_numbers - prints numbers from 0-9 except 3&4
  *
- * description: using ASCII
+ * Description: using ASCII
  *
  * Return: none
  */
