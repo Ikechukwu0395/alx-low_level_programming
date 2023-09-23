@@ -17,9 +17,9 @@ void more_numbers(void)
 {
 		for (i = 0; i < 23; i++)
 		{
-			putchar(a[i]);
+			_putchar(a[i]);
 		}
-		putchar('\n');
+		_putchar('\n');
 }
-putchar('\n');
+_putchar('\n');
 }
