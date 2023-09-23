@@ -8,10 +8,10 @@
 
 void print_numbers(void)
 {
-	char a[11] = "0123456789$";
+	char a[12] = "0123456789$";
 	int i;
 
-	for (i = 0; i <= 12; i++)
+	for (i = 0; i < 12; i++)
 	{
 		_putchar(a[i]);
 	}
