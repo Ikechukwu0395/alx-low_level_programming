@@ -18,8 +18,8 @@ void print_rev(char *str)
     /* Print the string in reverse */
 	for (i = length - 1; i >= 0; i--)
 	{
-		putchar(str[i]);
+		_putchar(str[i]);
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
