@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * print_rev - start of my function
- * @str: character
- * Description: prints length of tring
+ * rev_string - start of my function
+ * @s: character
+ * Description: prints length of string in reverse
  * Return: void
 */
-void print_rev(char *str)
+void rev_string(char *s);
 {
 	int length = 0;
 	int i;
 	/* Find the length of the string */
-	while (str[length] != '\0')
+	while (s[length] != '\0')
 	{
 		length++;
 	}
@@ -18,7 +18,7 @@ void print_rev(char *str)
     /* Print the string in reverse */
 	for (i = length - 1; i >= 0; i--)
 	{
-		_putchar(str[i]);
+		_putchar(s[i]);
 	}
 
 	_putchar('\n');
