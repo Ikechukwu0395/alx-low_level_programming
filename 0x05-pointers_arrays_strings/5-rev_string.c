@@ -5,7 +5,7 @@
  * Description: prints length of string in reverse
  * Return: void
 */
-void rev_string(char *s);
+void rev_string(char *s)
 {
 	int length = 0;
 	int i;
