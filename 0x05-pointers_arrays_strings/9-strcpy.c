@@ -16,8 +16,9 @@ int i = 0;
 	*dest = *src;
 		src++;
 		dest++;
-  }
-dest = '\0';
+}
+*dest = '\0';
+
 	return (final);
 
 }
