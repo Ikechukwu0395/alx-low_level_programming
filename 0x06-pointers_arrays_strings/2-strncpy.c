@@ -5,7 +5,6 @@
  * @dest: string to be copied to
  * @src: string to copy
  * @n: no. of bytes
- *
  * Return: dest
  */
 
