@@ -1,22 +1,42 @@
 #include "main.h"
-#include "_prime_number.c"
+
 /**
- * is_prime_number - check if prime
- * @n: number to check
- * Return: 1 if prime and 0 if not
+ * is_divisible - Entry point
+ * Description: Prime number
+ * @n: Integer
+ * @div: Integer
+ * Return: 1 if prime number 0 otherwise
+ */
+
+int is_divisible(int n, int div)
+{
+	if (div == 1 || div == n)
+	{
+		return (0);
+	}
+	if (n % div == 0)
+	{
+		return (1);
+	}
+	return (is_divisible(n, div - 1));
+}
+
+/**
+ * is_prime_number - Entry point
+ * Description: Prime number
+ * @n: Integer
+ * Return: 1 if prime number 0 otherwise
  */
 
 int is_prime_number(int n)
 {
-	int divisor = 3;
-
-	if (n % 2 == 0 || n < 2)
+	if (n <= 1)
 	{
 		return (0);
 	}
-	if (n == 2)
+	if (n ==  2)
 	{
 		return (1);
 	}
-	return (_prime_number(n, divisor));
+	return (!is_divisible(n, n - 1));
 }
